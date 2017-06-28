@@ -3,6 +3,9 @@
 session_start();
 if(!isset($_SESSION['login']))
 	header("location:LoginSystem/index.php");
+$user=$_SESSION['login_user'];
+if(!($user=='Admin'))
+	header("location:LoginSystem/dashboard.php");
 ?>
 
 
