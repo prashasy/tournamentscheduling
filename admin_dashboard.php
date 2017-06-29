@@ -74,6 +74,12 @@ if(!($user=='Admin'))
 		height:25px;
 	}
 
+	.btn11{
+		background-color: pink;
+		height:25px;
+	}
+
+
 	.logoutbtnwrapper{
 		background-color: orange;
 		font-family: courier;
@@ -147,6 +153,11 @@ if(!($user=='Admin'))
 			</div>
 		</a>
 
+		<a href=enter_results_round_2.php>
+			<div class="btn11">
+				<p>Enter results of Round 2 in Database</p>
+			</div>
+		</a>
 
 		<div class="logoutbtnwrapper">
 			<a href=LoginSystem/logout.php>
