@@ -79,6 +79,31 @@ if(!($user=='Admin'))
 		height:25px;
 	}
 
+	.btn12{
+		background-color: white;
+		height:25px;
+	}
+
+	.btn13{
+		background-color: pink;
+		height:25px;
+	}
+
+	.btn14{
+		background-color: white;
+		height:25px;
+	}
+
+	.btn15{
+		background-color: pink;
+		height:25px;
+	}
+
+	.btn16{
+		background-color: white;
+		height:25px;
+	}
+
 
 	.logoutbtnwrapper{
 		background-color: orange;
@@ -158,6 +183,37 @@ if(!($user=='Admin'))
 				<p>Enter results of Round 2 in Database</p>
 			</div>
 		</a>
+
+		<a href=create_table_round_3.php>
+			<div class="btn12">
+				<p>Create Table for Round 3</p>
+			</div>
+		</a>
+
+		<a href=schedule_round_3.php>
+			<div class="btn13">
+				<p>Schedule Round 3</p>
+			</div>
+		</a>
+
+		<a href=display_round_3.php>
+			<div class="btn14">
+				<p>Display Schedule of Round 3</p>
+			</div>
+		</a>
+
+		<a href=enter_results_round_3.php>
+			<div class="btn15">
+				<p>Enter results of Round 3 in Database</p>
+			</div>
+		</a>
+
+		<a href=display_highest_scorers.php>
+			<div class="btn16">
+				<p>Display Highest Scorers</p>
+			</div>
+		</a>
+
 
 		<div class="logoutbtnwrapper">
 			<a href=LoginSystem/logout.php>
