@@ -20,10 +20,11 @@ if(!($user=='Admin'))
 		font-family:courier;
 	}
 	.MenuWrapper{
+		border:2px solid black;
 		background-color:orange;
-		width:300px;
+		width:500px;
 		position:absolute;
-		left:475px;
+		left:400px;
 		top:75px;
 	}
 
@@ -48,12 +49,37 @@ if(!($user=='Admin'))
 		height:25px;
 	}
 
+	.btn6{
+		background-color: white;
+		height:25px;
+	}
+
+	.btn7{
+		background-color: pink;
+		height:25px;
+	}
+
+	.btn8{
+		background-color: white;
+		height:25px;
+	}
+
+	.btn9{
+		background-color: pink;
+		height:25px;
+	}
+
+	.btn10{
+		background-color: white;
+		height:25px;
+	}
+
 	.logoutbtnwrapper{
 		background-color: orange;
 		font-family: courier;
-		position:absolute;
-		left:105px;
-		top:225px;
+		position:relative;
+		left:205px;
+		top:55px;
 		width:100px;
 		height:50px;
 		text-align: center;
@@ -92,6 +118,36 @@ if(!($user=='Admin'))
 			</div>
 		</a>
 
+		<a href=enter_results_round_1.php>
+			<div class="btn6">
+				<p>Enter results of Round 1 in Database</p>
+			</div>
+		</a>
+		<a href=update_player_states.php>
+			<div class="btn7">
+				<p>Update Player States</p>
+			</div>
+		</a>
+
+		<a href=create_table_round_2.php>
+			<div class="btn8">
+				<p>Create Table for Round 2</p>
+			</div>
+		</a>
+
+		<a href=schedule_round_2.php>
+			<div class="btn9">
+				<p>Schedule Round 2</p>
+			</div>
+		</a>
+
+		<a href=display_round_2.php>
+			<div class="btn10">
+				<p>Display Schedule of Round 2</p>
+			</div>
+		</a>
+
+
 		<div class="logoutbtnwrapper">
 			<a href=LoginSystem/logout.php>
 			<div class="logoutbtn">
@@ -99,6 +155,7 @@ if(!($user=='Admin'))
 			</div>
 			</a>
 		</div>
+
 
 	</div>
 </body>

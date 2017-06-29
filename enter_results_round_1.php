@@ -36,7 +36,7 @@
 				<td>$ply1</td>
 				<td>$ply2</td>
 				<td>$id2</td>
-				<td><input name=match$sno type=number></td>
+				<td><input name=match$sno type=number required></td>
 				</tr>";
 			}
 			echo "</table>";

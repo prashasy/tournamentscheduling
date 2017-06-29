@@ -14,7 +14,8 @@
 			round_2 int not null, 
 			round_3 int not null, 
 			wins int not null, 
-			losses int not null, 
+			loses int not null, 
+			score int not null,
 			state varchar(50) default 'alive')";
 		$result=mysqli_query($conn, $sql);
 		if($result)
