@@ -44,7 +44,9 @@
 			echo "</form>";
 		}
 		
+
 	}
+	mysqli_close($conn);
 
 
 
