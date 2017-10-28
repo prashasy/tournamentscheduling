@@ -12,7 +12,7 @@ if(!($user=='Admin'))
 
 <html>
 <head>
-	<title> Admin Dashboard!! </title>
+	<title> Admin Dashboard !! </title>
 
 	<style type="text/css">
 	body{
@@ -22,76 +22,76 @@ if(!($user=='Admin'))
 	.MenuWrapper{
 		border:2px solid black;
 		background-color:orange;
-		width:500px;
+		width:495px;
 		position:absolute;
-		left:400px;
-		top:75px;
+		left:395px;
+		top:70px;
 	}
 
 	.btn1{
 		background-color: pink;
-		height:25px;
+		height:26px;
 	}
 	.btn2{
 		background-color: white;
-		height:25px;
+		height:26px;
 	}
 	.btn3{
 		background-color: pink;
-		height:25px;
+		height:26px;
 	}
 	.btn4{
 		background-color: white;
-		height:25px;
+		height:26px;
 	}
 	.btn5{
 		background-color: pink;
-		height:25px;
+		height:26px;
 	}
 
 	.btn6{
 		background-color: white;
-		height:25px;
+		height:26px;
 	}
 
 	.btn7{
 		background-color: pink;
-		height:25px;
+		height:26px;
 	}
 
 	.btn8{
 		background-color: white;
-		height:25px;
+		height:26px;
 	}
 
 	.btn9{
 		background-color: pink;
-		height:25px;
+		height:26px;
 	}
 
 	.btn10{
 		background-color: white;
-		height:25px;
+		height:26px;
 	}
 
 	.btn11{
 		background-color: pink;
-		height:25px;
+		height:26px;
 	}
 
 	.btn12{
 		background-color: white;
-		height:25px;
+		height:26px;
 	}
 
 	.btn13{
 		background-color: pink;
-		height:25px;
+		height:26px;
 	}
 
 	.btn14{
 		background-color: white;
-		height:25px;
+		height:26px;
 	}
 
 	.btn15{
