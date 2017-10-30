@@ -12,7 +12,7 @@ if(!($user=='Admin'))
 
 <html>
 <head>
-	<title> Admin Dashboard!! </title>
+	<title> Admin Dashboard !! </title>
 
 	<style type="text/css">
 	body{
