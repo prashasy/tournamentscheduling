@@ -25,7 +25,7 @@
 				<td> $ply2 </td>
 				<tr>";
 			}
-			echo"</table>";
+			echo"</table>"; //hello
 		}
 	}
 	mysqli_close($conn);
