@@ -121,7 +121,7 @@ if(!($user=='Admin'))
 </head>
 
 <body>
-	<h1 style="text-align:center">Hello Admin Prashasy </h1>
+	<h1 style="text-align:center">Hello Admin Prashasy! </h1>
 	<div class="MenuWrapper">
 		<a href=create_database.php>
 			<div class="btn1">
